@@ -73,10 +73,11 @@
   background: #4d5ae5;
   cursor: pointer;
 }
-/* =========second section========= */
 .menu-item {
   list-style: none;
 }
+/* =========second section========= */
+
 .title {
   font-weight: 600;
   font-size: 20px;
