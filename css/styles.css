@@ -5,9 +5,9 @@
   text-decoration: none;
 }
 /* =======WebStudio======== */
-.body {
+.body-page {
   font-family: 'Roboto', sans-serif;
-  background: #ffffff;
+  color: #ffffff;
 }
 /* =======Header========== */
 .main-header {
@@ -38,6 +38,12 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.link:hover {
+  color: #4d5ae5;
+}
+.link:focus {
+  color: #4d5ae5;
+}
 .contact {
   font-style: normal;
   font-weight: 400;
@@ -48,10 +54,10 @@
   text-decoration: none;
 }
 .contact:hover {
-  color: red;
+  color: #4d5ae5;
 }
 .contact:focus {
-  color: green;
+  color: #4d5ae5;
 }
 /* =======Main=========== */
 /* =======hero section======= */
@@ -66,10 +72,23 @@
   color: #ffffff;
 }
 .btn {
-  color: #ffffff;
-  background: #4d5ae5;
+  color: #4d5ae5;
+  background: #f4f4fd;
   cursor: pointer;
 }
+.btn:hover {
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.btn:focus {
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.btn:active {
+  color: #ffffff;
+  background: #404bbf;
+}
+
 .menu-item {
   list-style: none;
 }
@@ -107,7 +126,7 @@
   background: #f4f4fd;
 }
 /* =======Footer========= */
-.footer {
+.footer-page {
   background: #2e2f42;
 }
 .color-text {
@@ -131,5 +150,3 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
-/* ======= Portfolio======== */
-/* =======header======== */
