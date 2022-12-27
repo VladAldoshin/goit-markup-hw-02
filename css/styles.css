@@ -114,7 +114,7 @@
   background: #2e2f42;
 }
 .color-text {
-  background: #e7e9fc;
+  color: #e7e9fc;
 }
 .logo-web {
   font-family: 'Raleway', sans-serif;
@@ -134,3 +134,5 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
+/* ======= Portfolio======== */
+/* =======header======== */
