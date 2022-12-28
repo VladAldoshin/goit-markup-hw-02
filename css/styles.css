@@ -1,4 +1,6 @@
 :root {
+  --footer-background: #2e2f42;
+  --logo-font: 'Raleway', sans-serif;
 }
 
 .list {
@@ -8,7 +10,7 @@
   text-decoration: none;
 }
 .head-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -16,7 +18,7 @@
   text-transform: uppercase;
 }
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -35,6 +37,7 @@
   color: #ffffff;
   background: #e5e5e5;
 }
+/* =======WebStudio======== */
 /* =======Header========== */
 .main-header {
   background: #ffffff;
@@ -46,6 +49,7 @@
   color: #2e2f42;
 }
 .link {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -57,6 +61,7 @@
 }
 
 .contact {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -110,6 +115,7 @@
 }
 
 .title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -117,6 +123,7 @@
   color: #2e2f42;
 }
 .text {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -124,7 +131,7 @@
 }
 /* =========third section======= */
 .section-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -138,7 +145,7 @@
 }
 /* =======Footer========= */
 .footer-page {
-  background: #2e2f42;
+  background: var(--footer-background);
 }
 .color-text {
   color: #e7e9fc;
