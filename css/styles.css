@@ -23,6 +23,11 @@
   letter-spacing: 0.03;
   text-transform: uppercase;
 }
+.menu-item {
+  text-decoration: none;
+  list-style: none;
+}
+
 /* =======WebStudio======== */
 .body {
   font-family: 'Roboto', sans-serif;
@@ -96,9 +101,6 @@
   background: #404bbf;
 }
 
-.menu-item {
-  list-style: none;
-}
 /* =========second section========= */
 .secret-name {
   font-weight: 500;
@@ -129,9 +131,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-item {
-  text-decoration: none;
-}
+
 /* ==========fourth section======= */
 .fourth-section-color {
   background: #f4f4fd;
@@ -148,4 +148,14 @@
 }
 .logo-studio {
   color: #f4f4fd;
+}
+/* -------Portfolio-------- */
+/* -------Mane Page-------- */
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
