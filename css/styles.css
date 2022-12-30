@@ -1,6 +1,14 @@
 :root {
   --footer-background: #2e2f42;
   --logo-font: 'Raleway', sans-serif;
+  --logo-typical-fw: font-weight: 800;
+  --logo-typical-fs: font-size: 18px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .list {
@@ -11,16 +19,16 @@
 }
 .head-logo {
   font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: var(--logo-typical-fw);
+  font-size: var(--logo-typical-fs);
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-footer {
   font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: var(--logo-typical-fw);
+  font-size: var(--logo-typical-fs);
   line-height: 1.17;
   letter-spacing: 0.03;
   text-transform: uppercase;
@@ -29,13 +37,7 @@
   text-decoration: none;
   list-style: none;
 }
-
 /* =======WebStudio======== */
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-}
 /* =======Header========== */
 .main-header {
   background: #ffffff;
@@ -46,6 +48,7 @@ body {
 .head-logo-studio {
   color: #2e2f42;
 }
+
 .link {
   font-weight: 500;
   line-height: 1.5;
@@ -58,6 +61,7 @@ body {
 }
 
 .contact {
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
