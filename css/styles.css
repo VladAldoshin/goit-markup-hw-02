@@ -17,21 +17,19 @@ body {
 .link {
   text-decoration: none;
 }
-.head-logo {
+.logo{letter-spacing: 0.03em;
+  text-transform: uppercase;}
+.logo-head {
   font-family: var(--logo-font);
   font-weight: var(--logo-typical-fw);
   font-size: var(--logo-typical-fs);
   line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .logo-footer {
   font-family: var(--logo-font);
   font-weight: var(--logo-typical-fw);
   font-size: var(--logo-typical-fs);
   line-height: 1.17;
-  letter-spacing: 0.03;
-  text-transform: uppercase;
 }
 .menu-item {
   text-decoration: none;
